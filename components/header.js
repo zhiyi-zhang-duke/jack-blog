@@ -1,5 +1,6 @@
 import Link from 'next/link'
 
+// This should be findable
 export default function Header() {
   return (
     <header>
