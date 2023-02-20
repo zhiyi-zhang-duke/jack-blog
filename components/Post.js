@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Post({ post }) {
+let Post = ({ post }) => {
   return (
     <div className='card'>
       <img src={post.frontmatter.cover_image} alt='' />
@@ -17,3 +17,4 @@ export default function Post({ post }) {
     </div>
   )
 }
+export default Post;

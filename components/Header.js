@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 // This should be findable
-export default function Header() {
+let Header = () => {
   return (
     <header>
       <div className='container'>
@@ -12,3 +12,4 @@ export default function Header() {
     </header>
   )
 }
+export default Header;
